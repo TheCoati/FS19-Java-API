@@ -7,11 +7,11 @@ The Java API provides easy access to the API and read data related to the dedica
 
 ## Endpoints
 
-- [x] Server Data
-- [x] Map image
-- [x] Career SaveGame
-- [ ] Vehicles Data
-- [ ] Economy Data
+- [x] Server Data **(** /feed/dedicated-server-stats.xml **)**
+- [x] Map image **(** /feed/dedicated-server-stats.xml **)**
+- [x] Career SaveGame **(** /feed/dedicated-server-stats-map.jpg **)**
+- [ ] Vehicles Data **(** /feed/dedicated-server-savegame.html&file=vehicles **)**
+- [ ] Economy Data  **(** /feed/dedicated-server-savegame.html&file=economy **)**
 
 ---
 ## Usage
@@ -39,3 +39,5 @@ try {
    e.printStackTrace();
 }
 ```
+
+
